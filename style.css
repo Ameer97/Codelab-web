@@ -1,0 +1,177 @@
+html,body{width: 100%; height: 100%}
+body{
+    background: url('223929497-blur-picture.jpg') fixed;
+    background-size: cover;
+}
+
+#nave{
+    padding: 0;
+    padding-left: 20px
+}
+
+.card{
+    width: 20rem;
+    margin: 10px;
+    margin-right: 0;
+}
+
+.navbar-brand{
+    font-family: 'Rammetto One', cursive;
+}
+
+nav ul li a {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+nav ul li a:hover {
+    background-color: #c5aa6a
+}
+
+.bg-CustemColor{
+    background-color: #343a40
+}
+
+
+footer{
+    font-family: 'Rajdhani', sans-serif;
+        padding: 21px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 32px;
+    text-align: center;
+    display: block width: 100%;
+    color: white;
+    background-color: #343a40;
+    width: 100%;
+    
+    
+}
+
+.sidenav {
+    margin-top: 40px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #52616a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #9DC3C1;
+}
+tr:nth-child(odd) {
+    background-color: #E0E3DA;
+}
+
+tr:first-child {
+    background-color: #6E7783;
+}
+
+
+
+label h6{
+    color: white;
+    font-weight:500
+
+}
+
+.modal-content{
+  background-color:#3b8686
+}
+
+.modal-header h1, .modal-header h3{
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-weight: 800
+
+
+}
+
+.btn-primary{
+    background-color:#6495ED
+}
+
+.btn-danger{
+    background-color: #ed6464 ;
+    width: 14%;
+    float: right
+}
+
+.btns{
+    width: 86%;
+    float: left
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 200px) {
+    .btn-danger{
+    background-color: #ed6464 ;
+    width: 18%;
+    float: right
+}
+
+.btns{
+    width: 82%;
+    float: left
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+
